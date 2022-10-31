@@ -9,11 +9,11 @@ OrionLib:MakeNotification({
 	Time = 5
 })
 
-_G.Key = "shooter2.0"
+_G.Key = "shooter"
 _G.KeyInput = "string"
 
 function MakeScriptHub()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/subhian922/autofarm/main/psxautofarm.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/subhian922/autofarm/main/donatemeautofarm"))()
 end
 
 function CorrectKeyNotification()
