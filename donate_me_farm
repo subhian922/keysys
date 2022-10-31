@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/subhian922/gui/main/gui.lua')))()
 local Player = game.Players.LocalPlayer
-local Window = OrionLib:MakeWindow({Name = "Key System Of Trade Scamm", HidePremium = false, SaveConfig = true, IntroText = "Donate Me AUTO FARM" IntroEnabled = true})
+local Window = OrionLib:MakeWindow({Name = "Key System Of Trade Scamm", HidePremium = false, SaveConfig = true, IntroText = "Donate Me AUTO FARM"})
 
 OrionLib:MakeNotification({
 	Name = "Logged In",
